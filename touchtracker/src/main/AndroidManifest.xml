@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="cn.jiajixin.touchtrack">
+
+  <application>
+    <provider
+      android:name="cn.jiajixin.touchtracker.TouchTrackContentProvider"
+      android:exported="false"
+      android:authorities="${applicationId}.authorization.touchTrackContentProvider" />
+  </application>
+</manifest>

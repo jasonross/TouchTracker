@@ -1,0 +1,3 @@
+include ':touchtracker'
+include ':app'
+rootProject.name = "TouchTracker"
