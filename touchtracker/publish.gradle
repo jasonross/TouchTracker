@@ -1,0 +1,26 @@
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'touch-tracker'
+
+    publishedGroupId = 'cn.jiajixin'
+    artifact = 'touchtracker'
+    libraryVersion = '1.0.0'
+
+    libraryName = 'touchtracker'
+    libraryDescription = 'touchtracker,easily find the view who consumed the touch event, and fastly find corresponding code according to user interface'
+    siteUrl = 'https://github.com/jasonross/TouchTracker'
+    gitUrl = 'https://github.com/jasonross/TouchTracker'
+
+    //开发者信息
+    developerId = 'xxx'
+    developerName = 'xxx'
+    developerEmail = 'xxx@xxx.com'
+
+    //开源协议相关
+    licenseName = 'MIT'
+    licenseUrl = 'MIT'
+    allLicenses = ["MIT"]
+}
+
+apply from: 'bintray.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
